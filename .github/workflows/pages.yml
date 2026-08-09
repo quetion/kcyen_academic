@@ -30,7 +30,7 @@ jobs:
       - name: Prepare website files
         run: |
           mkdir _site
-          cp index.html styles.css script.js og.png .nojekyll _site/
+          cp *.html styles.css script.js og-academic-pages.png .nojekyll _site/
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
